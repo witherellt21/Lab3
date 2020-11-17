@@ -1,0 +1,3 @@
+
+The safeBoard function has a big-O notation, O(Nlog(N)), as can be seen by the diminishing nested for loop. In other words as the initial for loop increases in iterations, the nested for loop decreases in range of iteration. In order to find all solutions big-O notation would be O(N^3*log(N)). On the other hand, the checkVertical and checkDiagonal functions have a big-O runtime of O(1). In order to find all solutions, the big-O notation would be O(N^2), because the board is N by N, meaning there are N^2 combinations of queen placements.
+
